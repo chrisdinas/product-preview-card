@@ -13,13 +13,6 @@
 
 @font-face {
   font-family: Montserrat;
-  src: url(/fonts/Montserrat-Regular.woff) format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Montserrat;
   src: url(/fonts/Montserrat-Bold.woff) format("woff");
   font-weight: bold;
   font-style: normal;
@@ -75,7 +68,6 @@ p {
 
 .title {
   font-size: 2.1rem;
-  max-width: 200px;
   line-height: 1;
   font-family: Fraunces;
   color: var(--title-clr);
