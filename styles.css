@@ -25,16 +25,10 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: Fraunces;
-  src: url(/fonts/Fraunces9pt-Bold.woff2) format("woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-
 body {
   background-color: var(--bg-clr);
   font-family: Montserrat, sans-serif;
+  font-weight: normal;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -98,6 +92,7 @@ p {
 .price {
   color: var(--primary-clr-one);
   font-family: Fraunces;
+  font-weight: bold;
   font-size: 2.2rem;
   display: flex;
   align-items: center;
@@ -107,6 +102,7 @@ p {
 .price::after {
   color: var(--text-clr);
   font-family: Montserrat;
+  font-weight: normal;
   font-size: 0.75rem;
   text-decoration: line-through;
   content: "$169.99";
